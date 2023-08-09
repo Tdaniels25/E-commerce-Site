@@ -1,5 +1,6 @@
 import { useCallback } from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const Label1 = styled.div`
   position: relative;
@@ -418,38 +419,26 @@ const Dashboard = () => {
   return (
     <DashboardRoot>
       <ContentFrame>
-        <TopBar>
-          <Input>
-            <Label>
-              <Label1>Search Item</Label1>
-            </Label>
-            <InputField>
-              <InputArea>
-                <Placeholder>
-                  Apple Watch, Samsung S21, Macbook Pro, ...
-                </Placeholder>
-              </InputArea>
-            </InputField>
-          </Input>
-        </TopBar>
         <ContentArea>
           <Row01>
             <ItemCard>
-              <ProductImage onClick={onProductImageContainer1Click}>
-                <ProductImage1>
-                  <ImageIcon alt="" src="/image@2x.png" />
-                </ProductImage1>
-              </ProductImage>
-              <Content>
-                <ItemName>Apple Watch</ItemName>
-                <SmallDescription>Series 5 SE</SmallDescription>
-                <Action>
-                  <ItemName>$ 529.99</ItemName>
-                  <Button>
-                    <Icon13 alt="" src="/icon.svg" />
-                  </Button>
-                </Action>
-              </Content>
+              <Link to="/" className="recipePage-homeBtn">
+                <ProductImage onClick={onProductImageContainer1Click}>
+                  <ProductImage1>
+                    <ImageIcon alt="" src="/image@2x.png" />
+                  </ProductImage1>
+                </ProductImage>
+                <Content>
+                  <ItemName>Apple Watch</ItemName>
+                  <SmallDescription>Series 5 SE</SmallDescription>
+                  <Action>
+                    <ItemName>$ 529.99</ItemName>
+                    <Button>
+                      <Icon13 alt="" src="/icon.svg" />
+                    </Button>
+                  </Action>
+                </Content>
+              </Link>
             </ItemCard>
             <ItemCard1>
               <ProductImage2>
