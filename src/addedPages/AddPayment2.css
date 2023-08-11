@@ -1,0 +1,288 @@
+.addANew {
+  position: relative;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+.header,
+.label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.header {
+  align-self: stretch;
+  padding: var(--padding-5xs);
+  font-size: var(--subtitle-small-regular-expanded-size);
+}
+.label {
+  padding: 0 var(--padding-5xs);
+}
+.placeholder {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+}
+.inputArea {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  align-items: center;
+  justify-content: flex-start;
+}
+.input,
+.inputField,
+.name {
+  align-self: stretch;
+  display: flex;
+}
+.inputField {
+  border-radius: var(--br-smi);
+  background-color: var(--ui-white);
+  box-shadow: 0 4px 16px rgba(26, 31, 22, 0.15);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--face-h5-size);
+}
+.input,
+.name {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.input {
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.name {
+  padding: var(--padding-5xs);
+  justify-content: flex-start;
+  color: var(--font-placeholder);
+}
+.icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.inputArea1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.input2,
+.input3,
+.inputField2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.input2 {
+  width: 186px;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.input3,
+.inputField2 {
+  justify-content: flex-start;
+}
+.input3 {
+  width: 141px;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.dateCvc {
+  width: 596px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  color: var(--font-placeholder);
+}
+.checkboxInput1 {
+  position: absolute;
+  height: 106.25%;
+  width: 106.25%;
+  top: -3.12%;
+  right: -3.12%;
+  bottom: -3.12%;
+  left: -3.12%;
+  border-radius: 2px;
+  border: 1px solid var(--ui-tertiary);
+  box-sizing: border-box;
+}
+.inner {
+  position: absolute;
+  height: 75%;
+  width: 75%;
+  top: 12.5%;
+  right: 12.5%;
+  bottom: 12.5%;
+  left: 12.5%;
+  border-radius: 1px;
+  background-color: var(--font-accent);
+}
+.checkboxInput {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.save {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: center;
+  font-size: var(--face-h5-size);
+}
+.button1 {
+  position: relative;
+  font-weight: 500;
+}
+.button,
+.cta {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  border-radius: 10px;
+  background-color: var(--font-dark);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-5xl);
+  gap: var(--gap-5xs);
+  cursor: pointer;
+}
+.cta {
+  flex-direction: column;
+  padding: var(--padding-base);
+  font-size: var(--face-h5-size);
+  color: var(--ui-white);
+}
+.button3 {
+  position: relative;
+  text-decoration: underline;
+  letter-spacing: -0.02em;
+}
+.button2 {
+  border-radius: 11px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+}
+.secureConnection {
+  position: relative;
+  letter-spacing: -0.02em;
+}
+.info {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  color: var(--font-success);
+}
+.form,
+.info,
+.infromation {
+  display: flex;
+  align-items: center;
+}
+.infromation {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form {
+  position: absolute;
+  top: 298px;
+  left: 382px;
+  border-radius: 15px;
+  background-color: var(--ui-white);
+  width: 676px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 32px;
+  box-sizing: border-box;
+  justify-content: center;
+  gap: 16px;
+}
+.header1,
+.iconArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.header1 {
+  padding: var(--padding-base);
+  align-items: center;
+  font-size: var(--subtitle-small-regular-expanded-size);
+  color: var(--font-dark);
+}
+.iconArea {
+  padding: var(--padding-5xs);
+  align-items: flex-start;
+}
+.mastercardEndingIn {
+  position: relative;
+}
+.paymentMethod,
+.paymentMethods {
+  display: flex;
+  padding: var(--padding-5xs);
+}
+.paymentMethod {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  cursor: pointer;
+}
+.paymentMethods {
+  position: absolute;
+  top: 68px;
+  left: 382px;
+  border-radius: var(--br-smi);
+  background-color: var(--ui-white);
+  width: 676px;
+  overflow: hidden;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: var(--face-h5-size);
+  color: var(--font-placeholder);
+}
+.addPayment {
+  position: relative;
+  border-radius: 16px;
+  background-color: #ededed;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--body-small-regular-condensed-size);
+  color: var(--font-dark);
+  font-family: var(--face-h5);
+}
